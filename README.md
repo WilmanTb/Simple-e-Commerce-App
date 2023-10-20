@@ -24,7 +24,7 @@ A Simple Online Store Application Used to Conduct The Buying And Selling Process
 1. UI Rendering : Android UI Kit, Midtrans UI Kit
 2. Android Studio Version : Electric Eel | 2022.1.1 Patch 2
 3. Android Studio Theme : Material Theme Github Dark (Dark Ofcourse xD)
-4. Min SDK Version : 24
+4. Min SDK Version : 22
 5. Image Type : System Image, PNG, Internet Image
 6. Payment Gateway : Midtrans Payment Gateway API
 7. Shipment Cost : RajaOngkir API

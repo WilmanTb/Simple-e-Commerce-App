@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_produk"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/baju"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/nama_produk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Nama produk"
+            android:textColor="@color/font"
+            android:textSize="17sp"
+            app:layout_constraintStart_toEndOf="@id/img_produk"
+            app:layout_constraintTop_toTopOf="@id/img_produk" />
+
+        <TextView
+            android:id="@+id/stokProduk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="x200"
+            android:textColor="@color/font"
+            android:textSize="17sp"
+            app:layout_constraintStart_toEndOf="@id/img_produk"
+            app:layout_constraintTop_toBottomOf="@id/nama_produk" />
+
+
+        <TextView
+            android:id="@+id/hargaProduk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Rp 100.000"
+            android:textColor="@color/font"
+            android:textSize="17sp"
+            app:layout_constraintStart_toEndOf="@id/img_produk"
+            app:layout_constraintTop_toBottomOf="@id/stokProduk" />
+
+        <ImageView
+            android:id="@+id/delete_product"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/trash"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
